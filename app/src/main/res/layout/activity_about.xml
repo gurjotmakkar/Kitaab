@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gsmakkar1.kitaab.AboutActivity">
+
+    <TextView
+        android:id="@+id/aboutDescriptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Developer: Gurjot Singh Makkar"
+        android:textAlignment="center"
+        android:textSize="76sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="74dp" />
+</RelativeLayout>

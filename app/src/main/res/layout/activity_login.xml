@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.gsmakkar1.kitaab.LoginActivity">
+
+    <TextView
+        android:id="@+id/loginAppLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="kitaab"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/loginEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/loginAppLabel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/loginPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/loginEmail"
+        android:layout_alignStart="@+id/loginEmailLabel" />
+
+    <Button
+        android:id="@+id/loginLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/loginPassword"
+        android:layout_alignStart="@+id/loginPassword"
+        android:layout_below="@+id/loginPassword"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:shadowColor="@android:color/black"
+        android:text="Log In"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/loginNoAccountLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginLoginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="Not account yet? Create one"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/loginEmailLabel"
+        android:backgroundTint="@android:color/white"
+        android:ems="12"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginPasswordLabel"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/white"
+        android:ems="12"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</RelativeLayout>

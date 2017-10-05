@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.gsmakkar1.kitaab.SignupActivity">
+
+    <TextView
+        android:id="@+id/signupAppLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:text="kitaab"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/signupEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="21dp"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/signupAppLabel"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/signupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:ems="12"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/signupEmailLabel"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/signupDobLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/signupEmail"
+        android:layout_alignStart="@+id/signupEmailLabel" />
+
+    <EditText
+        android:id="@+id/signupDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:ems="12"
+        android:inputType="date"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/signupDobLabel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/signupPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/signupDob"
+        android:layout_alignStart="@+id/signupDobLabel" />
+
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:ems="12"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/signupPasswordLabel"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/signupSignupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/signupPassword"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/signupYesAccountLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/signupSignupButton"
+        android:layout_alignStart="@+id/signupSignupButton"
+        android:layout_below="@+id/signupSignupButton"
+        android:layout_marginTop="11dp"
+        android:text="Already have an account? Log In"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

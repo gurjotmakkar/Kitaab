@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "909610801341",
+    "firebase_url": "https://kitaab-c7388.firebaseio.com",
+    "project_id": "kitaab-c7388",
+    "storage_bucket": "kitaab-c7388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909610801341:android:6ddb4fb26b332070",
+        "android_client_info": {
+          "package_name": "com.example.gsmakkar1.kitaab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909610801341-0e81r85ppuqd5rvq2mtpk33jsrjugtet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gsmakkar1.kitaab",
+            "certificate_hash": "7943bde9bd76fe2d27dfc65c9032ec1705724043"
+          }
+        },
+        {
+          "client_id": "909610801341-o6pb8pvi80fbde08uipspi647cqsn6pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCujmSLIZD_JIOfzJ5rWJJpw-gwaTGiLC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909610801341-o6pb8pvi80fbde08uipspi647cqsn6pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gsmakkar1.kitaab.ChatActivity">
+
+    <TextView
+        android:id="@+id/noChatFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:lineSpacingExtra="36sp"
+        android:text="Please upload a book in order to get assigned to a chatroom"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:visibility="invisible"/>
+
+    <ListView
+        android:id="@+id/chatroomListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
